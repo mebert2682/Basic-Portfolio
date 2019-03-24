@@ -101,6 +101,10 @@ hr{
   color: #777777
 }
 
+.p1, .p2, .p3{
+  hyphens: auto;
+}
+
 footer{
   background-color:#666666;
   color:#fff;
@@ -114,13 +118,44 @@ footer{
   height: 50px;
 }
 
-
-
 .clearfix::after {
   content: "";
   display: block;
   clear: both;
+}
 
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=text-1] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  height: 300px;
+}
+
+input[type=submit] {
+  width: 100px;
+  background-color: #4aaaa5;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #057e78;
+}
 
 
 
